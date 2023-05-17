@@ -1,0 +1,374 @@
+body {
+
+color: #434455;
+background-color: #FFFFFF;
+
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+   
+} 
+
+:root {
+
+ --brand-color: ;
+
+}
+
+/**------------- HEADER-----------*/
+ 
+.header {
+}
+.header-nav {
+}
+.header-logo-inner {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #4d5ae5;
+
+}
+
+.link {
+
+    text-decoration: none;
+}
+   
+
+.header-logo {
+    color: #2e2f42;
+   
+}
+
+/**------------- LOGO-----------*/
+
+.list {
+
+    list-style: none;
+
+}
+
+.header-list {
+     
+}
+.header-list-item {
+   
+}
+
+.header-list-item-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    text-decoration:none;
+    color: #2e2f42;  
+}
+
+.link {
+    text-decoration:none;
+}
+
+.header-list-item-link:hover {
+    color: #404bbf;
+}
+
+.header-list-item-link:focus {
+    
+    color: #404bbf;
+}
+
+/**------------- LIST-----------*/
+
+.header-address {
+    font-style: normal
+}
+.header-address-list {
+}
+.header-address-list-item {
+
+}
+
+.header-address-list-item-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color:#434455;
+    
+}
+.link {
+
+}
+.list {
+
+}
+.header-address-list-item-link:hover {
+    color: #404bbf
+}
+
+.header-address-list-item-link:focus {
+    color: #404bbf
+}
+
+/**------------- ADDRESS-----------*/
+
+
+
+
+
+
+
+
+
+/**------------- INTRO-----------*/
+
+.intro {
+    background-color: #2e2f42;
+}
+.intro-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.intro-btn {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em ;
+    color: #ffffff;
+    cursor: pointer;
+}
+.intro-btn:hover {
+    background-color: #404BBF
+}
+
+.intro-btn:focus {
+    background-color: #404BBF
+}
+
+
+
+
+/**------------- CONTENT-----------*/
+
+.content {
+}
+.content-suptitle{
+
+}
+    
+
+
+.list {
+}
+.content-list {
+}
+.content-item {
+}
+.content-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.content-top-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+/**------------- ABOUT-----------*/
+
+
+.about {
+}
+.about-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:  #2e2f42;
+}
+.list {
+}
+.about-list {
+}
+.about-item {
+}
+.about-img {
+}
+
+
+
+/**------------- STAFF-----------*/
+
+
+.staff {
+    background-color: #F4F4FD
+}
+.staff-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.list {
+}
+.staff-list {
+   
+}
+.staff-item {
+    background-color: #FFFFFF
+}
+.staff-img {
+}
+.staff-subject {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.staff-center-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/**------------- FOOTER-----------*/
+
+.footer {
+    background-color:  #2e2f42;
+}
+.footer-logo-inner {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800 ;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.link {
+}
+.footer-logo {
+    color: #f4f4fd
+}
+.footer-text {
+}
+
+
+
+/**------------- DEEP.PoRTFOLIO-----------*/
+
+.list {
+    list-style: none
+}
+.deep {
+
+}
+.deep-suptitle {
+}
+.deep-list {
+}
+.deep-list-item {
+}
+
+.deep-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+
+    color: #4d5ae5;
+    background-color: #F4F4FD;
+    
+}
+
+.deep-btn:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+
+}
+
+.deep-btn:focus {
+color: #FFFFFF;
+background-color: #404BBF;
+
+}
+
+/**------------- DEEP.SubJECt-----------*/
+
+.list {
+    list-style: none
+}
+.deep-list-subject {
+}
+.deep-subject-item {
+}
+.link {
+    text-decoration: none
+}
+
+.deep-subject-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.deep-subject-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
