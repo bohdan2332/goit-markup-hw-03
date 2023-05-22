@@ -17,8 +17,11 @@ font-family: 'Roboto', sans-serif;
 /**------------- HEADER-----------*/
  
 .header {
+     border-bottom: 1px solid #e7e9fc
 }
 .header-nav {
+    display: flex;
+    align-items: center;
 }
 .header-logo-inner {
     font-family: "Raleway", sans-serif;
@@ -29,7 +32,19 @@ font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
 
     color: #4d5ae5;
+    margin-right: 76px;
 
+}
+
+.header-container {
+   display: flex;
+
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .link {
@@ -52,9 +67,12 @@ font-family: 'Roboto', sans-serif;
 }
 
 .header-list {
+    display: flex;
+    gap: 40px;
      
 }
 .header-list-item {
+    padding: 24px 0;
    
 }
 
@@ -84,11 +102,17 @@ font-family: 'Roboto', sans-serif;
 /**------------- LIST-----------*/
 
 .header-address {
-    font-style: normal
+   
+    font-style: normal;
+   
 }
 .header-address-list {
+    display: flex;
+    gap: 40px
+   
 }
 .header-address-list-item {
+   
 
 }
 
@@ -207,6 +231,7 @@ font-family: 'Roboto', sans-serif;
 .about-item {
 }
 .about-img {
+    display: flex;
 }
 
 
