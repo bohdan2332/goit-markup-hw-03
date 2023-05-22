@@ -72,8 +72,7 @@ font-family: 'Roboto', sans-serif;
      
 }
 .header-list-item {
-    padding: 24px 0;
-   
+    
 }
 
 .header-list-item-link {
@@ -83,7 +82,8 @@ font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
 
     text-decoration:none;
-    color: #2e2f42;  
+    color: #2e2f42; 
+    padding: 24px 0; 
 }
 
 .link {
@@ -152,6 +152,7 @@ font-family: 'Roboto', sans-serif;
 
 .intro {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 .intro-title {
     font-size: 56px;
@@ -159,15 +160,23 @@ font-family: 'Roboto', sans-serif;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px;
 }
 .intro-btn {
-    background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em ;
     color: #ffffff;
+    
+
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4D5AE5;
+    border-radius: 4px;
     cursor: pointer;
 }
 .intro-btn:hover {
@@ -176,6 +185,11 @@ font-family: 'Roboto', sans-serif;
 
 .intro-btn:focus {
     background-color: #404BBF
+}
+
+.container {
+
+
 }
 
 
