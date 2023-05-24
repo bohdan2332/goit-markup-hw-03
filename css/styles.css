@@ -5,9 +5,14 @@ background-color: #FFFFFF;
 
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
+
    
 } 
 
+.img {
+
+    display: block;
+}
 :root {
 
  --brand-color: ;
@@ -208,7 +213,9 @@ font-family: 'Roboto', sans-serif;
 
 }
     
+.container {
 
+}
 
 .list {
 }
@@ -218,7 +225,7 @@ font-family: 'Roboto', sans-serif;
 }
 .content-item {
 
-    flex-basis: calc((100% - 72px) / 4))
+    flex-basis: calc((100% - 72px) / 4));
 }
 .content-title {
     font-weight: 500;
@@ -275,7 +282,8 @@ font-family: 'Roboto', sans-serif;
 
 
 .staff {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
+    padding: 120px 0;
 }
 .staff-title {
     font-size: 36px;
