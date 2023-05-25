@@ -227,7 +227,8 @@ img {
 }
 .content-item {
 
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
+
 }
 .content-title {
     font-weight: 500;
