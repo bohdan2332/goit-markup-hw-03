@@ -437,6 +437,7 @@ border: 1px solid transparent;
 .deep-list-subject {
     display: flex;
     flex-wrap: wrap;
+    column-gap: 24px;
      row-gap: 48px;
 }
 .deep-subject-item {
@@ -467,11 +468,13 @@ border: 1px solid transparent;
 
 }
 
-.container-deep {
-   
+.deep-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+
+
 }
-
-
 
 
 
