@@ -262,6 +262,7 @@ img {
     margin: 0;
 }
 .content-item {
+  
 
     width: calc((100% - 72px) / 4);
 
@@ -276,9 +277,25 @@ img {
     margin-bottom: 8px;
 }
 .content-top-text {
+    width: 264px;
+    height: 72px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 24px;
     letter-spacing: 0.02em;
+
+    color: #434455;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    text-align: left;
+
+    margin-top: 8px;
+    
 }
 
 
