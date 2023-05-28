@@ -70,6 +70,8 @@ img {
 .list {
 
     list-style: none;
+    padding: 0;
+    margin: 0;
    
 
 }
@@ -88,6 +90,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: block;
 
     text-decoration:none;
     color: #2e2f42; 
@@ -112,6 +115,7 @@ img {
 .header-address {
    
     font-style: normal;
+    margin-left: auto;
    
 }
 .header-address-list {
@@ -120,6 +124,8 @@ img {
    
 }
 .header-address-list-item {
+    padding-top: 24px;
+    padding-bottom: 24px;
    
 
 }
@@ -128,6 +134,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+ 
 
     color:#434455;
     
@@ -157,7 +164,9 @@ img {
 
 
 /**------------- INTRO-----------*/
-
+.h1 {
+    margin: 0;
+}
 .intro {
     background-color: #2e2f42;
     padding: 188px 0;
@@ -168,6 +177,9 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
 
     max-width: 496px;
 }
@@ -178,6 +190,10 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em ;
     color: #ffffff;
+
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
     
 
     display: block;
@@ -330,6 +346,9 @@ img {
     background-color: #FFFFFF;
     flex-basis: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
+    margin: auto;
+    padding: 0px, 0px, 32px, 0px;
+    gap: 32px;
 }
 .staff-img {
 
@@ -387,6 +406,7 @@ img {
 }
 .footer-text {
     max-width: 264px;
+   color:#F4F4FD; 
 }
 
 .container {
