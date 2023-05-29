@@ -21,16 +21,28 @@ img {
 
 }
 
+
+
+
 /**------------- HEADER-----------*/
+
+
+
+
  
 .header {
+
      border-bottom: 1px solid #e7e9fc
 }
+
 .header-nav {
+
     display: flex;
     align-items: center;
 }
+
 .header-logo-inner {
+
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -44,11 +56,13 @@ img {
 }
 
 .header-container {
+
    display: flex;
 
 }
 
 .container {
+
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -57,15 +71,14 @@ img {
 .link {
 
     text-decoration: none;
+
 }
    
-
 .header-logo {
+
     color: #2e2f42;
    
 }
-
-/**------------- LOGO-----------*/
 
 .list {
 
@@ -77,15 +90,18 @@ img {
 }
 
 .header-list {
+
     display: flex;
     gap: 40px;
      
 }
+
 .header-list-item {
     
 }
 
 .header-list-item-link {
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -95,13 +111,16 @@ img {
     text-decoration:none;
     color: #2e2f42; 
     padding: 24px 0; 
+
 }
 
 .link {
+
     text-decoration:none;
 }
 
 .header-list-item-link:hover {
+
     color: #404bbf;
 }
 
@@ -110,8 +129,6 @@ img {
     color: #404bbf;
 }
 
-/**------------- LIST-----------*/
-
 .header-address {
    
     font-style: normal;
@@ -119,11 +136,13 @@ img {
    
 }
 .header-address-list {
+
     display: flex;
     gap: 40px
    
 }
 .header-address-list-item {
+
     padding-top: 24px;
     padding-bottom: 24px;
    
@@ -131,6 +150,7 @@ img {
 }
 
 .header-address-list-item-link {
+
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -139,51 +159,60 @@ img {
     color:#434455;
     
 }
+
 .link {
 
 }
+
 .list {
 
 }
+
 .header-address-list-item-link:hover {
+
     color: #404bbf
 }
 
 .header-address-list-item-link:focus {
+
     color: #404bbf
 }
-
-/**------------- ADDRESS-----------*/
-
-
-
-
-
 
 
 
 
 /**------------- INTRO-----------*/
-.h1 {
+
+h1 {
+
     margin: 0;
 }
+
+
 .intro {
+
     background-color: #2e2f42;
     padding: 188px 0;
 }
+
 .intro-title {
+
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+
     color: #ffffff;
+
     margin-bottom: 48px;
     margin-left: auto;
     margin-right: auto;
 
     max-width: 496px;
 }
+
 .intro-btn {
+
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -200,17 +229,23 @@ img {
     min-width: 169px;
     height: 56px;
     border: none;
+
     background-color: #4D5AE5;
+
     border-radius: 4px;
     cursor: pointer;
 }
+
 .intro-btn:hover {
+
     background-color: #404BBF
 }
 
 .intro-btn:focus {
+
     background-color: #404BBF
 }
+
 .intro-container{
 
 }
@@ -225,13 +260,21 @@ img {
 
 /**------------- CONTENT-----------*/
 
-.content {
-    padding: 120px 0;
-}
-
 .container {
 
 }
+
+.list {
+
+}
+
+
+.content {
+
+    padding: 120px 0;
+    
+}
+
 
 .visually-hidden {
 
@@ -248,37 +291,35 @@ img {
 
 }
 
-
-
-
-
-.list {
-
-}
 .content-list {
+
     display: flex;
     gap: 24px;
     padding: 0; 
     margin: 0;
+
 }
+
 .content-item {
-  
 
     width: calc((100% - 72px) / 4);
 
 }
+
 .content-title {
+
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+
     color: #2e2f42;
 
     margin-bottom: 8px;
+
 }
+
 .content-top-text {
-    width: 264px;
-    height: 72px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -299,13 +340,20 @@ img {
 }
 
 
+
+
 /**------------- ABOUT-----------*/
 
 
+
+
 .about {
-    padding-bottom: 120px;
+
+   padding-bottom: 120px;
 }
+
 .about-title {
+
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -315,33 +363,47 @@ img {
 
     margin-bottom: 72px;
 }
+
 .list {
+
 }
+
 .about-list {
+
     display: flex;
     gap: 24px;
+
 }
+
 .about-item {
+
     flex-basis: calc((100% - 48px) / 3);
 }
+
 .about-img {
    
 }
+
 .container {
 
-
 }
+
 
 
 
 /**------------- STAFF-----------*/
 
 
+
+
 .staff {
+
     background-color: #F4F4FD;
     padding: 120px 0;
 }
+
 .staff-title {
+
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -351,59 +413,112 @@ img {
 
     margin-bottom: 72px; 
 }
+
 .list {
 
 }
+
 .staff-list {
+
     display: flex;
     gap: 24px;
    
 }
+
 .staff-item {
+
     background-color: #FFFFFF;
     flex-basis: calc((100% - 3 * 24px) / 4);
-    border-radius: 0px 0px 4px 4px;
-    margin: auto;
-    padding: 0px, 0px, 32px, 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
     gap: 32px;
+
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+   
+    margin: 0;
 }
+
 .staff-img {
 
+    width: 264px;
+    height: 260px;
+
 }
+
 .staff-subject {
+  
+  
+
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+    line-height: 24px;
 
     text-align: center;
-    margin-bottom: 8px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    
+      
+
 }
+
 .staff-center-text {
+
+ 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 24px;
+    
+    text-align: center;
     letter-spacing: 0.02em;
 
-    text-align: center;
+    color: #434455;
+
+
+
+
+
 }
 
 .staff-container {
 
     padding: 32px 16px;
+
 }
 
 .container {
 
 }
 
+
+
+
 /**------------- FOOTER-----------*/
 
+
+
+
 .footer {
+
     background-color:  #2e2f42;
     padding: 100px 0;
+
 }
+
 .footer-logo-inner {
+
     font-family: "Raleway", sans-serif;
     font-weight: 800 ;
     font-size: 18px;
@@ -414,16 +529,33 @@ img {
 
     display: inline-block;
     margin-bottom: 16px;
+
 }
+
 .link {
 
 }
+
 .footer-logo {
-    color: #f4f4fd
+
+    color: #f4f4fd;
+
 }
+
 .footer-text {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    position: absolute;
+    height: 72px;
     max-width: 264px;
-   color:#F4F4FD; 
+    color:#F4F4FD;
+
 }
 
 .container {
@@ -432,27 +564,40 @@ img {
 
 
 
-/**------------- DEEP.PoRTFOLIO-----------*/
+
+/**------------- DEEP.PORTFOLIO-----------*/
+
+
+
 
 .list {
+
     list-style: none
+
 }
+
 .deep {
+
     padding-top: 96px; 
     padding-bottom: 120px;
 
 }
 
 .deep-list {
+
     display: flex;
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
+
 }
+
 .deep-list-item {
+
 }
 
 .deep-btn {
+
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -466,11 +611,11 @@ img {
     padding: 12px 24px;
     border: 1px solid #e7e9fc; 
     border-radius: 4px;;
-
-    
+  
 }
 
 .deep-btn:hover {
+
     color: #FFFFFF;
     background-color: #404BBF;
     border: 1px solid transparent;
@@ -478,14 +623,23 @@ img {
 }
 
 .deep-btn:focus {
+
 color: #FFFFFF;
 background-color: #404BBF;
 border: 1px solid transparent;
 
 }
 
-/**------------- DEEP.SubJECt-----------*/
+
+
+
+/**------------- DEEP.SUBJECT-----------*/
+
+
+
+
 .visually-hidden{
+
     position: absolute;
     width: 1px;
     height: 1px;
@@ -497,10 +651,14 @@ border: 1px solid transparent;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
 .list {
+
     list-style: none
 }
-.deep-list-subject {
+
+.deep-list-subject{
+
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -508,14 +666,20 @@ border: 1px solid transparent;
      padding: 0;
       margin: 0;
 }
+
 .deep-subject-item {
+
     width: calc((100% - 48px) / 3);
+
 }
+
 .link {
+
     text-decoration: none
 }
 
 .deep-subject-title {
+
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -524,7 +688,9 @@ border: 1px solid transparent;
 
     margin-bottom: 8px;
 }
+
 .deep-subject-text {
+
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -537,6 +703,7 @@ border: 1px solid transparent;
 }
 
 .deep-container {
+
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
